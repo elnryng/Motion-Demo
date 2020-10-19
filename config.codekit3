@@ -77,18 +77,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/animationSpeed-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/blueBall.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/blueBall-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -114,14 +103,14 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/yellowBall.js": {
+	"/dev/js/text.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/yellowBall-min.js",
-		"oF": 0,
+		"oAP": "/dev/js/text-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},

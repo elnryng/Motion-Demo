@@ -338,6 +338,9 @@ ul {
   .container-grid > div {
     grid-area: grid-content; }
 
+h3 {
+  font-family: 'Commissioner', sans-serif; }
+
 /* =============
     Typography
 ============= */
@@ -381,23 +384,10 @@ textarea {
 ============= */
 .container {
   display: grid;
-  grid-template-columns: auto 50px auto 50px auto 50px auto;
-  grid-template-areas: ". blueball . redball . yellowball ."; }
-  .container .blue-ball {
-    grid-area: blueball;
-    height: 100px;
-    width: 100px;
-    background-color: #0E79B2;
-    border-radius: 50%; }
-  .container .red-ball {
-    grid-area: redball;
-    height: 100px;
-    width: 100px;
-    background-color: #f13232;
-    border-radius: 50%; }
-  .container .yellow-ball {
-    grid-area: yellowball;
-    height: 100px;
-    width: 100px;
-    background-color: #E2C044;
-    border-radius: 50%; }
+  grid-template-columns: repeat(auto, 3);
+  grid-template-areas: ". animation ." ". text ."; }
+  .container > svg {
+    grid-area: animation; }
+  .container #loading {
+    grid-area: text;
+    text-align: center; }

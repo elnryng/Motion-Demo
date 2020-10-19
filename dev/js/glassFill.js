@@ -1,16 +1,26 @@
-import {gsap} from "gsap";
-import { ballSpeed } from "./animationSpeed";
+import {
+    gsap
+} from "gsap";
 
-export function redBallAnimation(){
+
+export function glassFillAnimation() {
     var tl = gsap.timeline();
-    tl.to(".red-ball",
-            {duration: ballSpeed, 
-                width: 150, 
-                repeat: -1,
-                y: 200,
-                yoyo: true
-                })
-   ;
+    tl.fromTo("#waveshape", {
+        y: 280
+    }, {
+        duration: 3,
+        y: 10
+    },"start");
+
+    tl.fromTo("#waveshape", {
+        x: -10
+    }, {
+        duration: 1,
+        ease: "none",
+        repeat: 2,
+        yoyo: true,
+        x: 300
+    },"start");
     return tl;
 
 }

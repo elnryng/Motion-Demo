@@ -1,3 +1,3 @@
 
 
-export const ballSpeed = 2;
+export const fillSpeed = 3;
