@@ -391,3 +391,6 @@ textarea {
   .container #loading {
     grid-area: text;
     text-align: center; }
+  .container #done {
+    grid-area: text;
+    text-align: center; }
